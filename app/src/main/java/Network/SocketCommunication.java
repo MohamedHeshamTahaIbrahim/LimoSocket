@@ -26,7 +26,7 @@ private Socket socket ;{
         socket.disconnect();
     }
 
-    public io.socket.client.Socket getSocket() {
+    public Socket getSocket() {
         return socket;
     }
 }
